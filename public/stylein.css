@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #8C9094 !important; /* Warna Nardo Grey */
+    color: #2D3134 !important;
+    font-family: 'DM Sans', sans-serif !important;
+    min-height: 100vh;
+}
+
+.topbar {
+    background: rgba(255, 255, 255, 0.3) !important;
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.card-custom {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    border-radius: 15px !important;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1) !important;
+}
+
+/* --- TYPOGRAPHY --- */
+.logo-title {
+    font-family: 'Bebas Neue', sans-serif !important;
+    color: #2D3134 !important;
+    text-shadow: 2px 2px 0px #FFB6C1 !important;
+    letter-spacing: 2px !important;
+}
+
+/* --- TOMBOL SOFT PINK --- */
+.btn-pink {
+    background-color: #FFB6C1 !important;
+    color: #2D3134 !important;
+    font-weight: 700 !important;
+    border: none !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.btn-pink:hover {
+    background-color: #FF9EBB !important;
+    color: #2D3134 !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.6) !important;
+}
+
+/* --- TABEL & BADGE --- */
+.table-custom { 
+    --bs-table-bg: transparent !important; 
+    --bs-table-color: #2D3134 !important; 
+}
+.badge-custom { 
+    background-color: #D47A8A !important; 
+    color: white !important; 
+}
